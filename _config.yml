@@ -28,9 +28,12 @@ url: "https://javabootcamp-pl.github.io" # the base hostname & protocol for your
 github_username:  javabootcamp-pl
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: null # Used local them
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
 
 defaults:
   - scope:
